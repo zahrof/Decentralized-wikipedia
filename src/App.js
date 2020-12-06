@@ -10,7 +10,7 @@ import Web3 from 'web3'
 const web3 = new Web3(new Web3.providers.HttpProvider("http://localhost:8545"));
 
 let input = fs.readFileSync('./home/zahrof/Documents/Master2/DAAR/Projet2/decentralized-wikipedia/build/build/build/contracts/Wikipedia.json', 'utf8');
-let output = solc.compile(input, 1)
+
 
 var abi = JSON.parse()
 var ZombieFactoryContract = web3.eth.contract(abi)
